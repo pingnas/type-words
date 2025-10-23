@@ -1,0 +1,54 @@
+[
+  {
+    "id": "article_nce1",
+    "name": "新概念英语1-课文",
+    "description": "",
+    "category": "文章学习",
+    "tags": [
+      "新概念英语"
+    ],
+    "url": "NCE_1.json",
+    "length": 72,
+    "translateLanguage": "common",
+    "language": "en"
+  },
+  {
+    "id": "article_nce2",
+    "name": "新概念英语2-课文",
+    "description": "新概念英语2-课文",
+    "category": "文章学习",
+    "tags": [
+      "新概念英语"
+    ],
+    "url": "NCE_2.json",
+    "length": 96,
+    "translateLanguage": "common",
+    "language": "en"
+  },
+  {
+    "id": "article_nce3",
+    "name": "新概念英语3-课文",
+    "description": "新概念英语3-课文",
+    "category": "文章学习",
+    "tags": [
+      "新概念英语"
+    ],
+    "url": "NCE_3.json",
+    "length": 60,
+    "translateLanguage": "common",
+    "language": "en"
+  },
+  {
+    "id": "article_nce4",
+    "name": "新概念英语4-课文",
+    "description": "新概念英语4-课文",
+    "category": "文章学习",
+    "tags": [
+      "新概念英语"
+    ],
+    "url": "NCE_4.json",
+    "length": 48,
+    "translateLanguage": "common",
+    "language": "en"
+  }
+]
