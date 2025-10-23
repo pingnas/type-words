@@ -13,7 +13,6 @@ import {
   APP_NAME, APP_VERSION,
   EXPORT_DATA_KEY,
   LOCAL_FILE_KEY,
-  Origin,
   PracticeSaveArticleKey,
   PracticeSaveWordKey, SAVE_DICT_KEY, SAVE_SETTING_KEY, SoundFileOptions
 } from "@/config/env.ts";
@@ -168,7 +167,7 @@ let importLoading = $ref(false)
 
 async function exportData(notice = '导出成功！') {
   exportLoading = true
-  const JSZip = await loadJsLib('JSZip', `${Origin}/libs/jszip.min.js`);
+  const JSZip = await loadJsLib('JSZip', `jszip.min.js`);
   let data = {
     version: EXPORT_DATA_KEY.version,
     val: {
@@ -291,7 +290,7 @@ async function importData(e) {
   } else if (file.name.endsWith(".zip")) {
     try {
       importLoading = true
-      const JSZip = await loadJsLib('JSZip', `${Origin}/libs/jszip.min.js`);
+      const JSZip = await loadJsLib('JSZip', `jszip.min.js`);
       const zip = await JSZip.loadAsync(file);
 
       const dataFile = zip.file("data.json");

@@ -2,8 +2,8 @@ import { useBaseStore } from "@/stores/base.ts";
 
 export const GITHUB = ''
 export const ProjectName = 'Type Words'
-export const Host = '2study.top'
-export const Origin = `https://${Host}`
+// export const Host = '2study.top'
+// export const Origin = `https://${Host}`
 export const APP_NAME = 'Type Words'
 
 const common = {
